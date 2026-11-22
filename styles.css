@@ -1,0 +1,93 @@
+.skip-link { 
+    position: absolute; 
+    left: -1000px;
+    height: 30px; 
+    background-color: #F0ECCE;
+    font-weight:bold;
+ }
+.skip-link:focus {
+    left:0px;
+    top: 40px; 
+} 
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;             
+  padding: 1rem 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00274C;
+  position: relative;
+  top: 0px;
+  left:0px;
+  width: 100%;
+} 
+
+nav img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+nav ul li {
+  float: left;
+  flex: 1;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+}
+
+nav li a:hover {
+  background-color: #FFCB05;
+
+/*stack overflow/w3 schools, come back to moving this image*/ 
+
+}
+h1{
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+
+}
+h2 {
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+
+}
+h3 { 
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+}
+p {color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+li {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7vw;
+}
+a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.76vw;  
+}
+.labubu {
+    max-width: 100%;
+    height: auto;
+}
+
