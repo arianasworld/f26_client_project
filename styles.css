@@ -8,7 +8,141 @@
 .skip-link:focus {
     left:0px;
     top: 40px; 
+
+
 } 
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;             
+  padding: 1rem 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00274C;
+  position: relative;
+  top: 0px;
+  left:0px;
+  width: 100%;
+} 
+
+nav img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+nav ul li {
+  float: left;
+  flex: 1;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  font-weight:bold;
+}
+
+nav li a:hover {
+  background-color: #FFCB05;
+  color:#00274C;
+
+/*stack overflow/w3 schools, come back to moving this image*/ 
+
+}
+h1{
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    margin: 1rem;
+    background-color: #FFCB05;
+
+}
+h2 {
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    outline: black 1px solid;
+    padding: 1rem;
+    
+
+}
+h3 { 
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    background-color: #FFCB05;
+    
+}
+p {color:black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    outline: black 1px solid;
+    padding: 1rem;
+
+    
+}
+iframe {
+  width: 100%;
+  height: 400px;
+  align-self: center;
+  /*display:flex;
+  align-items: center;*/
+  margin: 1rem;
+}
+
+li {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    margin: 1rem;
+    list-style-type: none;
+
+}
+a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.76rem; 
+    text-decoration: none; 
+    margin: 1rem;
+}
+a:hover {
+    text-decoration: underline;
+    margin: 1rem;
+}
+
+.labubu {
+    max-width: 20%;
+    height: auto;
+    align-self: center;
+    margin: 1rem;
+
+}
+
+article {
+    display: flex;
+    /* align-items: center; */
+   /* justify-content: center; */
+    flex-direction: column;
+    margin: 1rem;
+}
+section {
+     display: flex;
+    /* align-items: center; */
+   /* justify-content: center; */
+    flex-direction: column;
+    margin: 1rem;
+}
+
+/*https://github.com/phuocng/csslayout/blob/master/contents/card.mdx*/
+@media only screen and (min-width: 768px) {
 nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -54,45 +188,90 @@ nav li a:hover {
 h1{
     color:black;
     font-family: "Montserrat", sans-serif;
-    font-size: 3vw;
+    font-size: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FFCB05;
+    outline: 3px black solid;
 
 }
 h2 {
     color:black;
     font-family: "Montserrat", sans-serif;
-    font-size: 2vw;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-left: 5rem;
+    padding:1rem;
+    outline: 3px black solid;
 
 }
 h3 { 
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-size: 2vw;
+    font-size: 2rem;
+    margin: 1rem;
+    background-color:#FFCB05;
+    padding: 1rem;
+    outline: 3px black solid;
 }
 p {color:black;
     font-family: "Montserrat", sans-serif;
-    font-size: 2vw;
+    font-size: 2rem;
+    margin: 1rem;
+    outline: 1px black solid;
+    padding: 1rem;
 }
 iframe {
-  width: 100%;
+  width: 40%;
   height: 400px;
+  align-self: center;
+  /*display:flex;
+  align-items: center;*/
+  margin: 1rem;
 }
 
 li {
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
+    margin: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+
 }
 a {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.76vw; 
+    font-size: 1.76rem; 
     text-decoration: none; 
+    margin: 1rem;
 }
 a:hover {
     text-decoration: underline;
+    margin: 1rem;
 }
 
 .labubu {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
+    align-self: center;
+    margin: 1rem;
+
+}
+
+article {
+    display: flex;
+    /* align-items: center; */
+   /* justify-content: center; */
+    flex-direction: column;
+    margin: 1rem;
+}
+section {
+     display: flex;
+    /* align-items: center; */
+   /* justify-content: center; */
+    flex-direction: column;
+    margin: 1rem;
+}
+
 }
 

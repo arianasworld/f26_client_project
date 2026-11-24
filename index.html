@@ -134,7 +134,11 @@
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p>&#169;<span id="year"></span> Regents of the University of Michigan</p>
+      
     </footer>
 </body>
+<script>
+      document.querySelector("#year").innerHTML = new Date().getFullYear();
+      </script>
 </html>
