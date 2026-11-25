@@ -20,7 +20,7 @@
                 <li><a href = "prep.html">Preparing for Your Experience</a></li>
                 <li><a href = "start.html">Starting Your Experience</a></li>
                 <li><a href = "campusresources.html">Partner Campus Resources</a></li>
-                <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+                <li><a href="index.html"><img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI logo"></a></li>
             </ul>
         </nav>
     <h1>Preparing & Starting on Your Journey!</h1>
@@ -97,7 +97,7 @@
       <li><a href="https://docs.google.com/document/d/1U4lCNGyWKJ3C2i_VgFqAR45Z4zF1FehuthuqT-M2wdI/edit?usp=drive_link">Project Manager Commitment Form</a>: Formal agreement outlining responsibilities for student leads.</li>
       <li><a href="https://docs.google.com/document/d/1twc-7TYWmb_PNrOBiDI1NuJqJAuhluTICr22GRd_NLc/edit?usp=drive_link">Project Management Worksheet</a>: Guidance on clarifying the project scope and objectives, team roles, and timeline. This worksheet can be used by the project team and shared with the client.</li>
     </ul>
-    <img src="images/umsi_careerfair.1.26.2322.jpg" alt="Someone looking on track at the career fair. Meant to convey the idea of being prepared to start projects" class="labubu">
+    <img src="images/umsi_careerfair.1.26.2322.jpg" alt="Someone looking on track at the career fair. Meant to convey the idea of being prepared to start projects" class="photograph">
   </article>
 </section>
 <section>
@@ -115,9 +115,11 @@
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p>&#169;<span id="year"></span>Regents of the University of Michigan</p>
     </footer>
     
 </body>
-
+<script>
+      document.querySelector("#year").innerHTML = new Date().getFullYear();
+      </script>
 </html>

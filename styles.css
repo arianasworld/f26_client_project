@@ -13,13 +13,13 @@
 } 
 nav ul {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   align-items: center;             
-  padding: 1rem 2rem;
+  padding: 1vw 2vw;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: #00274C;
   position: relative;
   top: 0px;
@@ -28,24 +28,26 @@ nav ul {
 } 
 
 nav img {
-  height: 40px;
+  height: 10vw;
   width: auto;
   display: block;
 }
 nav ul li {
   float: left;
   flex: 1;
+  margin: 0;
 }
 
 nav ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 1px 1px;
+  padding: 1vw 1vw;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 2vw;
   font-weight:bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 nav li a:hover {
@@ -61,6 +63,7 @@ h1{
     font-size: 3rem;
     margin: 1rem;
     background-color: #FFCB05;
+    border-radius: 6px;
 
 }
 h2 {
@@ -70,6 +73,7 @@ h2 {
     margin: 1rem;
     outline: black 1px solid;
     padding: 1rem;
+    border-radius: 25px;
     
 
 }
@@ -79,6 +83,7 @@ h3 {
     font-size: 2rem;
     margin: 1rem;
     background-color: #FFCB05;
+    border-radius: 25px;
     
 }
 p {color:black;
@@ -87,6 +92,7 @@ p {color:black;
     margin: 1rem;
     outline: black 1px solid;
     padding: 1rem;
+    border-radius: 25px;
 
     
 }
@@ -97,6 +103,7 @@ iframe {
   /*display:flex;
   align-items: center;*/
   margin: 1rem;
+  border-radius: 25px;
 }
 
 li {
@@ -105,6 +112,7 @@ li {
     font-size: 1.7rem;
     margin: 1rem;
     list-style-type: none;
+    border-radius: 25px;
 
 }
 a {
@@ -112,37 +120,74 @@ a {
     font-size: 1.76rem; 
     text-decoration: none; 
     margin: 1rem;
+    border-radius: 25px;
 }
 a:hover {
     text-decoration: underline;
     margin: 1rem;
+    border-radius: 25px;
 }
 
 .labubu {
-    max-width: 20%;
+    max-width: 80%;
     height: auto;
     align-self: center;
     margin: 1rem;
+    border-radius: 25px;
 
 }
 
 article {
     display: flex;
     /* align-items: center; */
-   /* justify-content: center; */
+   /* justify-content: center; 
+   w3 schools*/
     flex-direction: column;
     margin: 1rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 25px;
 }
+
+
 section {
      display: flex;
     /* align-items: center; */
    /* justify-content: center; */
     flex-direction: column;
     margin: 1rem;
+    border-radius: 25px;
+    flex-direction: row;
+    margin: 1rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+}
+    
+footer {
+  background-color:#85a195;
+
+}
+footer p {
+    color:white;
+}
+footer a {
+    color:white;
+}
+/*w3 schools hover effect */
+article {
+  transition: 0.3s;
 }
 
+article:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 /*https://github.com/phuocng/csslayout/blob/master/contents/card.mdx*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 650px) {
 nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -181,6 +226,7 @@ nav ul li a {
 
 nav li a:hover {
   background-color: #FFCB05;
+  border-radius: 5px;
 
 /*stack overflow/w3 schools, come back to moving this image*/ 
 
@@ -191,8 +237,8 @@ h1{
     font-size: 3rem;
     margin: 1rem;
     padding: 1rem;
-    background-color: #FFCB05;
-    outline: 3px black solid;
+    background-color: transparent;
+    
 
 }
 h2 {
@@ -200,34 +246,38 @@ h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     margin: 1rem;
-    margin-left: 5rem;
-    padding:1rem;
-    outline: 3px black solid;
+    padding:none;
+    outline: none;
+    border-radius: none;
 
 }
 h3 { 
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 1rem;
-    background-color:#FFCB05;
+    background-color:none;
     padding: 1rem;
-    outline: 3px black solid;
+    outline: none;
+    border-radius: none;
+    align-self: center;
 }
 p {color:black;
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 1rem;
-    outline: 1px black solid;
+    outline: none;
     padding: 1rem;
+    border-radius: 25px;
 }
 iframe {
-  width: 40%;
+  width: 70%;
   height: 400px;
   align-self: center;
   /*display:flex;
   align-items: center;*/
   margin: 1rem;
+  border-radius: 25px;
 }
 
 li {
@@ -237,6 +287,7 @@ li {
     margin: 1rem;
     padding: 1rem;
     list-style-type: none;
+    border-radius: 25px;
 
 }
 a {
@@ -262,9 +313,16 @@ article {
     display: flex;
     /* align-items: center; */
    /* justify-content: center; */
-    flex-direction: column;
+    flex-direction: row;
     margin: 1rem;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 25px;
 }
+}
+
 section {
      display: flex;
     /* align-items: center; */
@@ -272,6 +330,18 @@ section {
     flex-direction: column;
     margin: 1rem;
 }
+main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+aside {
+    border-radius: 3px;
+    border: black, 1px, solid;
 
+}
+.signup {
+    padding: 1rem;
+    margin:1rem;
 }
 
