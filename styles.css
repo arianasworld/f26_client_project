@@ -128,7 +128,7 @@ a:hover {
     border-radius: 25px;
 }
 
-.labubu {
+.photograph {
     max-width: 80%;
     height: auto;
     align-self: center;
@@ -169,7 +169,7 @@ section {
 }
     
 footer {
-  background-color:#85a195;
+  background-color:#00274C;
 
 }
 footer p {
@@ -301,7 +301,7 @@ a:hover {
     margin: 1rem;
 }
 
-.labubu {
+.photograph {
     max-width: 20%;
     height: auto;
     align-self: center;
